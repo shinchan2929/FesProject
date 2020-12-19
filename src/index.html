@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <script type="text/javascript" src="./js/common.js"></script>
+
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+
+        <title>ほーむぺーじ</title>
+    </head>
+    <body>
+        <header>
+            <div class="header_title">
+                <h2>My Portfolio</h2>
+                <button class="barger_menu barger_hidden" id="barger_trigger">≡</button>
+            </div>
+            <nav class="header_nav" id="changeNav">
+                <p><a href="#about_section">About</a></p>
+                <p><a href="#features_section">Features</a></p>
+                <p><a href="#skills_section">Skills</a></p>
+                <p><a href="#career_section">Career</a></p>
+                <p><a href="#creative_section">Portfolio</a></p>
+                <p><a href="#contact_section">Contact</a></p>
+            </nav>
+        </header>
+        <main>
+            <section id = "hero_section" class="section">
+                <div class ="hero">
+                    <img src="../src/img/backgroud01.jpg">
+                    <div class="hero_text">
+                        <h1>
+                            My Portfolio
+                        </h1>
+                        <p class="subTitle">焚火をぼーっと眺めるのが好きです…</p>    
+                    </div>
+                </div>  
+            </section>
+
+            <section id = "about_section" class="section">
+                <h2>About</h2>
+                <div class="myprofile">
+                    <div class="myprofile_icon_img">
+                       <img src="../src/img/camp_campfire.png"> 
+                    </div>
+                    <div class="myprofile_text">  
+                        <p>
+                            <span class="strong_text">澤田　慎之介</span></br>
+                            Shinnnosuke Sawada
+                        </p>
+                        <ul>
+                            <li>生年月日：1999年7月4日(21歳)</li>
+                            <li>趣味：焚火、面白そうなレトルトカレーの買いあさり</li>
+                            <li>最近の目標：unityを使ったゲームを作る</li>
+                            <li>最近のはまっている調味料：クレイジーソルト</li>
+                            <li>最近の悩み：痩せたい…</li>
+                        </ul>   
+                    </div>
+                </div>
+                
+            </section>
+               
+            <section id="features_section" class="section">
+                <h2>Features</h2>
+                <div class="features">
+                    <div class="feature1 feature">
+                        <img src="./img/game_icon.png" class="features_img" >
+                        
+                        <div class="feature_text">
+                            <h3>ゲーム開発</h3>
+                            <p>
+                                高校生の頃にunity(ゲームエンジン)を使ってゲーム開発をしていました。（3Dシューティング）
+                                最近また自分でゲームを作ってみようと思いましたがunityの使い方をほぼ忘れていましたｗｗ
+                                現在はudemyを使ってunityの復習をしていますが、将来は
+                                ジャイロセンサーを使ったスマホゲームを作りたいです。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature2 feature" class="section">
+                        <img src="./img/cooking_icon.png" class="features_img">
+                        
+                        <div class="feature_text">
+                            <h3>料理</h3>
+                            <p>
+                                高校生の頃から料理を自分でするようになりました。
+                                最近は焚火にはまった影響でキャンプ料理に興味があります。（アヒージョとかホイル焼き)                        
+                                得意料理はすた丼とカレイの煮つけです。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature3 feature">
+                        <img src="./img/it_icon.png" class="features_img">
+                        
+                        <div class="feature_text">
+                            <h3>ITスキル</h3>
+                            <p>
+                                IT系の専門学校でjavaを中心に学んでいました。
+                                資格もいくつか取得しましたが自分で何を作るか考えてプログラミングをした経験が
+                                あまりないのでペーパードライバー状態ですww
+                                なので自分でプログラミングをする機会をどんどん増やして行きたいです。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills_section" class="section">
+                <h2>Skills</h2>
+                <div class="skills">
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>アルコール耐性</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner01"><p>10</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>健康意識レベル</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner02"><p>5</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>食欲</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner03"><p>100</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>Java</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner04"><p>60</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>JavaScript</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner05"><p>40</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>HTML</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner06"><p>40</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill_parameter">
+                        <div class="border_graph"> <!-- ベース -->
+                            <p>CSS</p> <!-- タイトル -->
+                            <div class="graph_frame"> <!-- フレーム -->
+                                <div class="graph_inner graph_inner07"><p>40</p></div> <!-- メーター -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="career_section" class="section">
+                <h2>Career</h2>
+                <div class="career">
+                    <div class="career_content" >
+                        
+                        <img src="./img/judo.png" class="career_img trigger">
+                        
+                        <div class="career_text">
+                            <h3>中学生時代</h3>
+                            <p>
+                                学業より部活（柔道部）を優先し、授業時間（特に英語）を
+                                睡眠に使っていたため、成績が大変なことになる。
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="career_content">
+                        <img src="./img/gardening.jpg" class="career_img trigger">
+
+                        <div class="career_text">
+                            <h3>高校生時代</h3>
+                            <p>
+                                総合学科という特殊な高校で基本五教科をロクに学ばず園芸などを
+                                して過ごす。3年次にプログラミング（Java）に触れ、
+                                英語を学ばなかったことを深く後悔する。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="career_content">
+                        <img src="./img/it.jpeg" class="career_img trigger">
+
+                        <div class="career_text">
+                            <h3>専門学校時代時代</h3>
+                            <p>
+                                専門学校でjavaと資格の取得を中心に本格的にITを学ぶ。
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="career_content">
+                        <img src="./img/otikomu.png" class="career_img trigger">
+
+                        <div class="career_text">
+                            <h3>新卒時代（←今ここ）</h3>
+                            <p>
+                                IT企業に就職。
+                                IT系の専門学校卒ということで調子に乗っていたが
+                                ビジネス文書やマナーなどが全くできず、余裕が一瞬にして砕け散る。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="creative_section" class="section">
+                <h2>Creative</h2>
+                <p>過去に制作したホームページを掲載しています。</p>
+                
+                <div class="creative">
+                    <img src="../src/img/ahijo.jpg" class="crative_img">
+                    <img src="../src/img/ahijo.jpg" class="crative_img">
+                    <img src="../src/img/ahijo.jpg" class="crative_img">
+                    <img src="../src/img/ahijo.jpg" class="crative_img">
+                </div>
+            </section>
+
+            <section id="contact_section" class="section">
+                <h2>Contact</h2>
+
+                <div class="contact" >
+                    <div class="contact_text">
+                        <h3>ご連絡はこちらから</h3>
+
+                        <p>お仕事のご依頼、ご相談などがありましたらお気軽にご連絡
+                            ください。ホームページ制作やアプリ開発、業務効率化な
+                            ど、お客様のご希望に沿ったシステム開発のご相談を承って
+                            おります。
+                        </p>
+                    </div>
+                    
+                    <div class="contact_imgs">
+                        <div class="contact_img">
+                            <img src="./img/mail_icon.png">
+                        </div>
+                        <div class="contact_img">
+                            <img src="./img/facebook_icon.png">
+                        </div>
+                        <div class="contact_img">
+                            <img src="./img/line_icon.png">
+                        </div>
+                        <div class="contact_img">
+                            <img src="./img/twitter_icon.png">
+                        </div>   
+                    </div>
+                </div>
+            </section>
+
+            <!--モーダル用html-->
+            <section id="modal_section" class="modal_section">
+                <div class="modal_bg modal_hidden">
+                    <div class="modal" >
+                        <button class="btn">×</button>
+                        <h3>中学生時代</h3>
+                        <hr>
+                        <p>
+                            学業より部活（柔道部）を優先し、授業時間（特に英語）を
+                            睡眠に使っていたため、成績が大変なことになる。
+                        </p>
+                        <ul>
+                            <li>実績（柔道部）：団体戦大将、県大会出場（個人、団体）、副部長</li>
+                            <li>得意技：一本背負い</li>
+                            <li>実績（英語)：5段階評価中１、be動詞が3年生になるまでわからなかった。</li>
+                            <li>得意技：居眠り</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="modal_bg modal_hidden">
+                    <div class="modal">
+                        <button class="btn">×</button>
+                        <h3>高校生時代</h3>
+                        <hr>
+                        <p>
+                            総合学科という特殊な高校で基本五教科をロクに学ばず園芸などを
+                            して過ごす。3年次にプログラミング（Java）に触れ、
+                            英語を学ばなかったことを深く後悔する。
+                        </p>
+                        <ul>
+                            <li>実績（園芸の授業で育てた野菜）：なす、トマト、玉ねぎ、里芋、人参、大根、バジル</li>
+                            <li>好きな野菜：なす、トマト</li>
+                            <li>思い出に残ったこと：収穫したトマトとバジルで作ったパスタがとても美味しかったです。</li>
+                            <li>実績：ITパスポート取得、Unityでのゲーム制作（人前に出せるものでは無い）</li>
+                            <li>できるようになったこと：ブラインドタッチ</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal_bg modal_hidden">
+                    <div class="modal">
+                        <button class="btn">×</button>
+                        <h3>専門学校時代時代</h3>
+                        <hr>
+                        <p>
+                            専門学校でjavaと資格の取得を中心に本格的にITを学ぶ。 
+                        </p>
+                        <ul>
+                            <li>実績：基本情報技術者試験&応用情報技術者試験合格、卒業制作班長</li>
+                            <li>得意言語：Java</li>
+                            <li>一番思い出に残ったこと：基本情報技術者試験の選択問題でCOBOLを選択し合格したこと</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal_bg modal_hidden">
+                    <div class="modal">
+                        <button class="btn">×</button>
+                        <h3>新卒時代（←今ここ）</h3>
+                        <hr>
+                        <p>
+                            IT企業に就職。
+                            IT系の専門学校卒ということで調子に乗っていたが
+                            ビジネス文書やマナーなどが全くできず、余裕が一瞬にして砕け散る。
+                        </p>
+                        
+                        <h3>Coming Soon....</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>©︎ShinnosukeSawada All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
